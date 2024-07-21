@@ -5,8 +5,8 @@ def readme():
     return f.read()
 
 setup(
-  name='GeneratorBdd',
-  version='0.0.1',
+  name='generator_bdd',
+  version='0.0.0',
   author='Dmitry Shibikin',
   author_email='dmitry.shibikin@yandex.ru',
   description='Generation .feature file',

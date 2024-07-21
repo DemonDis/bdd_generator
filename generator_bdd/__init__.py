@@ -1,6 +1,6 @@
 """
 
-GeneratorBdd library (GeneratorBdd) v.0.0.1
+generator_bdd library (generator_bdd) v.0.0.0
 
 The MIT License Copyright © 2024 Shibikin Dmitry
 
