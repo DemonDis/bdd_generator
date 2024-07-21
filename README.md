@@ -1,6 +1,6 @@
 # Cucmber generator
 
-<div align="center"><img src="https://github.com/DemonDis/bdd_generator/images/InnoLab.png" height="150" alt="Innovation lab"></div>
+<div align="center"><img src="https://github.com/DemonDis/bdd_generator/blob/main/images/InnoLab.png" height="150" alt="Innovation lab"></div>
 
 ## Usage
 ## Venv

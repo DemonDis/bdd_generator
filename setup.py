@@ -20,11 +20,7 @@ setup(
     'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent'
   ],
-  keywords=[
-    'python',
-    'cucmber',
-    'generator'
-  ],
+  keywords='python cucmber generator',
   project_urls={
     'Documentation': 'https://github.com/DemonDis/bdd_generator'
   },
