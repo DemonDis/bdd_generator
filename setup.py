@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 def readme():
-  with open('README.md', 'r') as f:
+  with open('README_PY.md', 'r') as f:
     return f.read()
 
 setup(
   name='generator_bdd',
-  version='0.0.0',
+  version='0.0.1',
   author='Dmitry Shibikin',
   author_email='dmitry.shibikin@yandex.ru',
   description='Generation .feature file',
