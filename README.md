@@ -22,8 +22,14 @@ pip install --upgrade pip
 |   └── ...  
 ├── 📁 images/
 |   └── InnoLab.png
-├──  
-└── ...   
+├──  📋 .env
+├──  📋 .gitignore
+├──  📋 LICENSE
+├──  📝 README_PY.md
+├──  📝 README.md
+├──  💾 requirements.txt
+├──  🔩 setup.cfg
+└──  🐍 setup.py  
 ```
 
 ### Public lib pip
@@ -33,6 +39,6 @@ python3 setup.py sdist bdist_wheel
 # public on https://pypi.org
 twine upload --repository pypi dist/*
 ```
-
- https://pypi.org/manage/project/GeneratorBdd/releases/#delete_release-modal-1
- https://habr.com/ru/articles/760046/
+ 
+ ### Information
+[Создание библиотеки Python: полный гайд](https://habr.com/ru/articles/760046/)  
