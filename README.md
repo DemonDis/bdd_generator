@@ -40,5 +40,5 @@ python3 setup.py sdist bdist_wheel
 twine upload --repository pypi dist/*
 ```
  
- ### Information
+### Information
 [Создание библиотеки Python: полный гайд](https://habr.com/ru/articles/760046/)  
