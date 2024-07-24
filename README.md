@@ -64,3 +64,4 @@ twine upload --repository pypi dist/*
  
 ### Information
 [Создание библиотеки Python: полный гайд](https://habr.com/ru/articles/760046/)  
+[Example projects readthedocs](https://docs.readthedocs.io/en/stable/examples.html)  
