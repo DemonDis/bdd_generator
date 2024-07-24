@@ -31,16 +31,24 @@ deactivate
 # Создаем страницу Login
 ├── 📁 generator_bdd/
 |   ├── 🐍 __init__.py
+|   ├── 🐍 generator.py
 |   └── ...  
-├── 📁 images/
+├── 📁 generator_bdd/
+|   ├── ⚙️ pytest.ini
+|   ├── 💾 requirements.txt
+|   ├── 🥒 test_app.feature
+|   ├── 🐍 test_app.py
+|   ├── 🐍 test_generator.py
+|   └── ...  
+├── 📁 example/
 |   └── InnoLab.png
 ├──  📋 .env
 ├──  📋 .gitignore
 ├──  📋 LICENSE
-├──  📝 README_PY.md
-├──  📝 README.md
+├──  📗 README_PY.md
+├──  📘 README.md
 ├──  💾 requirements.txt
-├──  🔩 setup.cfg
+├──  ⚙️ setup.cfg
 └──  🐍 setup.py  
 ```
 
@@ -48,6 +56,8 @@ deactivate
 ```bash
 # generate file for public
 python3 setup.py sdist bdist_wheel
+# error: invalid command 'bdist_wheel'
+pip install wheel
 # public on https://pypi.org
 twine upload --repository pypi dist/*
 ```
