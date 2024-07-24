@@ -1,29 +1,29 @@
 from pytest_bdd import scenario, given, when, then
 
-@scenario('test_app.feature', 'Publishing the article')
+@scenario('test_app.feature', 'Начало всех начал')
 def test_publish():
     pass
 
-@given("I'm an author user")
+@given("Что-то там и там")
 def author_user():
     pass
 
-@given("I have an article")
+@given("И там и сям")
 def article():
     pass
 
-@when("I go to the article page")
+@when("О и здесь еще")
 def go_to_article():
     pass
 
-@when("I press the publish button")
+@when("Как-то так и этак")
 def publish_article():
    pass
 
-@then("I should not see the error message")
+@then("И что думаешь об этом?")
 def no_error_message():
    pass
 
-@then("the article should be published")
+@then("Пожалуй на этом все")
 def article_is_published():
     pass

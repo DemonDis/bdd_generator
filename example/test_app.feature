@@ -1,12 +1,12 @@
 Feature: Blog
     A site where you can publish your articles.
 
-    Scenario: Publishing the article
-        Given I'm an author user
-        And I have an article
+    Scenario: Начало всех начал
+        Given Что-то там и там
+        And И там и сям
 
-        When I go to the article page
-        And I press the publish button
+        When О и здесь еще
+        And Как-то так и этак
 
-        Then I should not see the error message
-        And the article should be published  # Note: will query the database
+        Then И что думаешь об этом?
+        And Пожалуй на этом все
