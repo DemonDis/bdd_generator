@@ -2,7 +2,7 @@
 
 <div align="center"><img src="https://github.com/DemonDis/bdd_generator/blob/main/images/InnoLab.png" height="150" alt="Innovation lab"></div>
 
-### Venv
+### Venv (Linux/Mac)
 ```bash
 # add venv
 python3.12 -m venv .venv
@@ -12,6 +12,18 @@ python3.12 -m venv .venv
 pip3 install -r requirements.txt
 # update pip
 pip install --upgrade pip
+```
+
+### Venv (Windows)
+```bash
+# add venv
+python -m venv .venv
+# activate venv
+.venv\Scripts\activate.bat
+# install lib
+pip3 install -r requirements.txt
+# exit venv
+deactivate
 ```
 
 ### Structure
