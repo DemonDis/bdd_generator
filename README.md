@@ -56,6 +56,14 @@ deactivate
 └──  🐍 setup.py  
 ```
 
+### Lib for build 
+```bash
+# setuptools
+pip3 install setuptools
+# twine
+pip3 install twine
+```
+
 ### Public lib pip
 ```bash
 # generate file for public

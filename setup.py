@@ -16,8 +16,8 @@ setup(
   long_description_content_type='text/markdown',
   url='https://github.com/DemonDis/bdd_generator',
   packages=find_packages(),
-  install_requires=['requests>=2.25.1'],
-  # install_requires=REQUIREMENTS,
+  # install_requires=['requests>=2.25.1'],
+  install_requires=REQUIREMENTS,
   classifiers=[
     'Programming Language :: Python :: 3.12',
     'License :: OSI Approved :: MIT License',
