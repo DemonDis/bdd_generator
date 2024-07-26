@@ -1,4 +1,3 @@
-import os
 import gitlab
 from .create_file import create_cucumber_file
 
