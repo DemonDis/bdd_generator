@@ -1,5 +1,4 @@
-Feature: Blog
-    A site where you can publish your articles.
+Feature: Тестируем lib
 
     Scenario: Начало всех начал
         Given Что-то там и там

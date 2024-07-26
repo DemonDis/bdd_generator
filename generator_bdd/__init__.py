@@ -11,5 +11,5 @@ from .bdd_generator import *
 from .bdd_generator import *
 from .cache_file import *
 from .create_file import *
-from .cucmber_text import *
+from .cucumber_text import *
 from .generator import *
