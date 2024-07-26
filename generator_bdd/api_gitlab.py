@@ -2,34 +2,38 @@ import os
 import gitlab
 # from •create file import create_cucmber_file
 
-class Gitlab:
+class Gitlab_api:
     def __init__(self, URL_GITLAB, PRIVATE_TOKEN_GITLAB):
         self.URL_GITLAB = URL_GITLAB
         self.PRIVATE_TOKEN_GITLAB = PRIVATE_TOKEN_GITLAB
 
-def create_cumber (**params):
-    # Gitlab connect
-    gl = gitlab.Gitlab(
-        Gitlab.URL_GITLAB,
-        private_token=Gitlab.PRIVATE_TOKEN_GITLAB,
-        api_version=4,
-        ssl_verify=False
-    )
+    def create_cumber (**params):
+        # Gitlab connect
+        gl = gitlab.Gitlab(
+            Gitlab_api.URL_GITLAB,
+            private_token=Gitlab_api.PRIVATE_TOKEN_GITLAB,
+            api_version=4,
+            ssl_verify=False
+        )
     # GROUP
-    try:
-        all_epic = params['all_epic']
-    except KeyError:
-        all_epic = True
-    try:
-        generator = params [ 'generator']
-    except KeyError:
-        generator = False
-    group_id = params['group_id']
-    group = gl.groups.get(group_id)
-    # EPIC
-    epi_iid = params ['epi_iid']
-    epic = group.epics.get(epi_iid)
-    print(epic)
+    # try:
+    #     all_epic = params['all_epic']
+    # except KeyError:
+    #     all_epic = True
+    # try:
+    #     generator = params [ 'generator']
+    # except KeyError:
+    #     generator = False
+
+        # group_id = params['group_id']
+        # group = gl.groups.get(group_id)
+        # # EPIC
+        # epi_iid = params ['epi_iid']
+        # epic = group.epics.get(epi_iid)
+
+        project = gl.projects.get(params['project_id'])
+        issue = project.issues.get(params['issue_iid'])
+
     # Создаем файл .feature
     # create_cumber_file(
     #     # Заголовок еріс
