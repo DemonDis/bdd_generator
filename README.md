@@ -44,8 +44,8 @@ deactivate
 |   ├── 🐍 test_app.py
 |   ├── 🐍 test_generator.py
 |   └── ...  
-├── 📁 example/
-|   └── InnoLab.png
+├── 📁 images/
+|   └── 📷 InnoLab.png
 ├──  📋 .env
 ├──  📋 .gitignore
 ├──  📋 LICENSE

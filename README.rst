@@ -7,4 +7,6 @@ Cucmber generator
 
 .. This README.rst should work on Github and is also included in the Sphinx documentation project in docs/ - therefore, README.rst uses absolute links for most things so it renders properly on GitHub
 
-Генератор .feature на основе gitlab/github epics и issue по специальным html tags.
+Генератор .feature на основе gitlab/github epics и issue по специальным html tags.  
+
+Проект находиться на стадии разработки.
