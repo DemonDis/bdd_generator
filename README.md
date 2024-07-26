@@ -5,7 +5,7 @@
 ### Venv (Linux/Mac)
 ```bash
 # add venv
-python3.12 -m venv .venv
+python3.8 -m venv .venv
 # activate venv
 . .venv/bin/activate
 # install lib
@@ -37,7 +37,7 @@ deactivate
 |   ├── 🐍 __init__.py
 |   ├── 🐍 generator.py
 |   └── ...  
-├── 📁 generator_bdd/
+├── 📁 generator_cucumber/
 |   ├── ⚙️ pytest.ini
 |   ├── 💾 requirements.txt
 |   ├── 🥒 test_app.feature

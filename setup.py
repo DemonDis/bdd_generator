@@ -7,8 +7,8 @@ def readme():
     return f.read()
 
 setup(
-  name='generator_bdd',
-  version='0.0.1',
+  name='generator_cucumber',
+  version='0.0.2',
   author='Dmitry Shibikin',
   author_email='dmitry.shibikin@yandex.ru',
   description='Generation .feature file',
@@ -16,10 +16,9 @@ setup(
   long_description_content_type='text/markdown',
   url='https://github.com/DemonDis/bdd_generator',
   packages=find_packages(),
-  # install_requires=['requests>=2.25.1'],
   install_requires=REQUIREMENTS,
   classifiers=[
-    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.8',
     'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent'
   ],
@@ -27,5 +26,5 @@ setup(
   project_urls={
     'Documentation': 'https://github.com/DemonDis/bdd_generator'
   },
-  python_requires='>=3.12'
+  python_requires='>=3.8'
 )

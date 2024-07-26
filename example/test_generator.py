@@ -3,7 +3,7 @@ import os
 
 from dotenv import load_dotenv, find_dotenv
 sys.path.append('..')  # ".." означает один уровень вверх по дереву директорий
-from generator_bdd.api_gitlab import Gitlab_api
+from generator_cucumber.api_gitlab import Gitlab_api
 
 load_dotenv(find_dotenv())
 URL_GITLAB = os.environ.get('URL_GITLAB')

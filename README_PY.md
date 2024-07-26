@@ -5,8 +5,11 @@
 ### Structure
 ```
 # Проект по генерации .feature
-├── 📁 generator_bdd/
-|   ├── 🐍 __init__.py
-|   ├── 🐍 generator.py
-|   └── ...   
+├── 📁 generator_cucumber/
+|   ├── ⚙️ pytest.ini
+|   ├── 💾 requirements.txt
+|   ├── 🥒 test_app.feature
+|   ├── 🐍 test_app.py
+|   ├── 🐍 test_generator.py
+|   └── ... 
 ```

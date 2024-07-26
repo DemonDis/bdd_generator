@@ -6,14 +6,14 @@ Usage
 Установка
 ------------
 
-To use generator_bdd, first install it using pip:
+To use generator_cucumber, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install generator_bdd
+   (.venv) $ pip install generator_cucumber
 
 Пример import:
 
->>> import generator_bdd
+>>> import generator_cucumber
 ['generator']
 
